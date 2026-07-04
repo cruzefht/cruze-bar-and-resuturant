@@ -1,0 +1,78 @@
+*{margin:0px;
+padding:0px;
+}
+
+
+
+.winners{background-color:rgb(240, 205, 205);
+        width:100%;
+        height:650px;
+        padding:20ox;
+        margin-top:0px;
+        
+
+}
+h1{text-align: center;
+color:rgb(54, 1, 1);
+font-style:italic;
+font-weight:900;
+font-size:65px;
+padding:84px;
+
+
+}
+.mango{text-align: center;
+font-size:31px;
+font-style:italic;
+padding:40px;
+}
+
+.monkey{display:flex;
+text-decoration: none;
+align-items: center;
+background-color:rgb(248, 139, 158);
+height:60px;
+width:100%;
+padding-top:20px;
+
+}
+nav a{gap: 16px;
+font-size:20px;
+color:black;
+text-decoration: none;
+display:flex;
+}
+
+a{gap:20px;
+    padding:20px;
+    color:red;
+    font-style:italic;
+
+}
+.home{background-color:#A8C3A0;
+width:100%;
+height:1200px;
+}
+
+h2{text-align: center;
+font-size:50px;
+color:black;
+font-weight:900;
+padding:20px;
+}
+
+
+.luffy{text-align: center;
+    color:black;
+    font-size:30px;
+    padding:30px;
+}
+.mongers{display:grid;
+grid-template-columns:repeat(3,1fr);
+padding:30px;
+}
+.bonkers{border:1px solid black;
+border-radius:13px;}
+
+.juicy{text-align: center;
+font-size:30px;}
