@@ -6,18 +6,20 @@ padding:0px;
 
 .winners{background-color:rgb(240, 205, 205);
         width:100%;
-        height:650px;
+        height:1300px;
         padding:20ox;
         margin-top:0px;
         
 
 }
+.winners img{width:100%;}
+
 h1{text-align: center;
 color:rgb(54, 1, 1);
 font-style:italic;
 font-weight:900;
 font-size:65px;
-padding:84px;
+padding:90px;
 
 
 }
@@ -27,18 +29,51 @@ font-style:italic;
 padding:40px;
 }
 
-.monkey{display:flex;
+nav{position:sticky;
+top:0;
+display:flex;
 text-decoration: none;
-align-items: center;
-background-color:rgb(248, 139, 158);
-height:60px;
+background-color: rgb(248, 119, 141);
+position:fixed;
 width:100%;
-padding-top:20px;
-
+height:70px;
 }
+.maniac{gap:16px;
+    text-align: left;
+display:flex;
+width:100%;
+text-align: center;
+}
+.kingfisher{font-size:30px;
+color:brown;
+font-style:italic;
+text-align: center;
+}
+
+.bangers{gap:16px;
+    text-align: right;
+    display:flex;
+    padding-left:400px;
+    
+}
+button{background-color: rgb(243, 68, 97);
+    border:1px solid brown;
+    color:white;
+    height:50px;
+    padding-bottom:20px;
+    margin:13px;
+    border-radius: 10px;
+}
+button:hover{ background-color: red;
+             cursor:pointer;
+             color:grey;
+}
+
+
 nav a{gap: 16px;
+    text-align: right;
 font-size:20px;
-color:black;
+color:white;
 text-decoration: none;
 display:flex;
 }
@@ -51,14 +86,14 @@ a{gap:20px;
 }
 .home{background-color:#A8C3A0;
 width:100%;
-height:1200px;
+height:1500px;
 }
 
 h2{text-align: center;
 font-size:50px;
 color:black;
 font-weight:900;
-padding:20px;
+padding:80px;
 }
 
 
@@ -71,8 +106,13 @@ padding:20px;
 grid-template-columns:repeat(3,1fr);
 padding:30px;
 }
-.bonkers{border:1px solid black;
-border-radius:13px;}
+.bokers{
+border-radius:10px;
+gap:20px;}
 
 .juicy{text-align: center;
 font-size:30px;}
+
+.party{text-align: left;
+font-size:20px;
+}
