@@ -1,54 +1,65 @@
 *{margin:0px;
 padding:0px;
+box-sizing: border-box;
+}
+
+body{background-color: rgba(15, 12, 12, 0.267);
 }
 
 
 
-.winners{background-color:rgb(240, 205, 205);
+.winners{background-color:rgb(27, 24, 24);
         width:100%;
-        height:1300px;
+        height:700px;
         padding:20ox;
         margin-top:0px;
         
 
 }
-.winners img{width:100%;}
+.winners img{width:500px;
+position: center;
+text-align:center}
 
 h1{text-align: center;
-color:rgb(54, 1, 1);
+color:gold;
 font-style:italic;
 font-weight:900;
-font-size:65px;
-padding:90px;
+font-size:55px;
+padding-top:70px;
+padding-bottom:50px;
 
 
 }
 .mango{text-align: center;
 font-size:31px;
 font-style:italic;
-padding:40px;
+padding:10px;
+color:gold;
 }
 
 nav{position:sticky;
 top:0;
 display:flex;
 text-decoration: none;
-background-color: rgb(248, 119, 141);
+background-color: #1e1e1e;
 position:fixed;
 width:100%;
 height:70px;
+justify-content: space-between;
 }
 .maniac{gap:16px;
-    text-align: left;
+align-items: center;
 display:flex;
-width:100%;
-text-align: center;
 }
 .kingfisher{font-size:30px;
-color:brown;
+color:#ffb300;
 font-style:italic;
 text-align: center;
 }
+.kingfisher span{color:white;
+}
+.hero-img{position:center;
+width: 300px;}
 
 .bangers{gap:16px;
     text-align: right;
@@ -56,9 +67,8 @@ text-align: center;
     padding-left:400px;
     
 }
-button{background-color: rgb(243, 68, 97);
-    border:1px solid brown;
-    color:white;
+button{background-color: #e65100;
+    color:#ffffff;
     height:50px;
     padding-bottom:20px;
     margin:13px;
@@ -84,21 +94,21 @@ a{gap:20px;
     font-style:italic;
 
 }
-.home{background-color:#A8C3A0;
+.home{background-color:rgb(26, 22, 22);
 width:100%;
-height:1500px;
+height:1100px;
 }
 
 h2{text-align: center;
 font-size:50px;
-color:black;
+color:gold;
 font-weight:900;
 padding:80px;
 }
 
 
 .luffy{text-align: center;
-    color:black;
+    color:whitesmoke;
     font-size:30px;
     padding:30px;
 }
@@ -106,13 +116,127 @@ padding:80px;
 grid-template-columns:repeat(3,1fr);
 padding:30px;
 }
+
 .bokers{
 border-radius:10px;
-gap:20px;}
+gap:20px;
+background-color:rgb(43, 37, 37);
+padding:20px;
+margin:20px;
+height:300px;
+}
+
+
+.punisher{color:gold;
+font-style:italic;
+font-size:20px;
+text-decoration:dashed;
+}
+
+
 
 .juicy{text-align: center;
 font-size:30px;}
 
 .party{text-align: left;
 font-size:20px;
+color:white;
+}
+.wanna-be{ background-color:rgb(22, 19, 19);
+
+}
+
+.merit{text-align: center;
+font-size:50px;
+font-weight:900;
+font-style: italic;
+}
+
+.simon{text-align: center;
+color:gold;
+font-size:40px;
+font-weight: 300px;
+}
+.manners{display:grid;
+    align-items:center;
+    gap:16px;
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.making-burgers{margin:0;
+padding:30px;
+gap:20px;
+border-radius:10px;
+}
+
+.making-burgers video{width:500px;
+
+}
+.yappers{size:20px;
+}
+.joker{font-size:20px;
+font-style:italic;
+text-align: center;
+color:white;
+}
+
+.call-me{font-size:30px;
+text-align:center; 
+font-style:italic;
+font-weight:200;
+}
+
+.let-em{display:grid;
+grid-template-columns:repeat(3,1fr);
+padding-top:50px;
+gap:10px;
+width:100%;
+
+}
+.gachau{height:900px;
+background-color: rgb(31, 25, 25);
+width:100%;
+
+}
+.mutant{color:gold;
+    font-style:italic;
+    font-size:30px;
+    font-weight: 300;
+
+
+}
+.male{border-radius:10px;
+height:220px;
+padding:10px;
+margin:20px;
+background-color: rgb(26, 20, 20);
+width:fit-content;
+box-shadow: inset;
+}
+.bakers{text-decoration: none;
+align-items: center;}
+
+.cj{text-align:left;
+color:whitesmoke;
+text-decoration: none;
+font-style:italic;
+font-size:25px;
+font-weight:200px;
+}
+.contact{align-items: center;
+    padding:20px;
+
+}
+footer{padding-left: 20px;
+height:30px;
+align-items:center;
+text-align: center;
+background-color: rgb(22, 18, 18);
+color:white;
+}
+
+.print{color: black;
+text-decoration:none;
+
 }
